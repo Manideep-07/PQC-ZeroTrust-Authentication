@@ -1,1 +1,0 @@
-timestamp,client_id,kyber_keygen_time,kyber_encap_time,kyber_decap_time,dilithium_sign_time,dilithium_verify_time,aes_encryption_time,total_handshake_time
