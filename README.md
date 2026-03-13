@@ -174,11 +174,6 @@ As quantum computers become a reality over the next 5 to 10 years, almost all mo
 
 ---
 
-### How This GitHub Distribution ZIP Was Prepared
-The project was analyzed before creating this ZIP version. Some files were detected as heavy or system-dependent (e.g., C-library binaries, virtual environments, cache, and logs). Those files were intentionally excluded from the ZIP distribution version to keep the repository lightweight and uploadable. During the preparation process, Antigravity analyzed how those files were used in the original project environment. **Antigravity recreated the required setup locally during testing to ensure the project works correctly even though those files are not bundled in the ZIP.** The instructions below explain exactly how Antigravity configured the environment and how users can reproduce the same setup.
-
----
-
 ### Important Note for Downloaders (Missing Heavy Files)
 To keep this GitHub repository fast and lightweight, certain large binaries and environment artifacts were excluded.
 Here is exactly what was removed and why:
