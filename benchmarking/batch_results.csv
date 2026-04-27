@@ -1,0 +1,16 @@
+operation,batch_size,mean_s,stdev_s,p95_s,p99_s,wall_s,ops_per_sec
+Kyber768 (keygen+encap+decap),1,0.001086,0.0,0.001086,0.001086,0.0023,452.9
+Kyber768 (keygen+encap+decap),5,0.001776,0.000409,0.002321,0.002321,0.0051,986.91
+Kyber768 (keygen+encap+decap),10,0.001987,0.000468,0.002805,0.002805,0.008,1288.21
+Kyber768 (keygen+encap+decap),20,0.002543,0.000895,0.004212,0.004212,0.0133,1503.1
+Kyber768 (keygen+encap+decap),50,0.004166,0.001883,0.008194,0.009254,0.0284,1762.59
+Dilithium3 (keygen+sign+verify),1,0.003038,0.0,0.003038,0.003038,0.0091,220.82
+Dilithium3 (keygen+sign+verify),5,0.002882,0.000499,0.003492,0.003492,0.0068,745.51
+Dilithium3 (keygen+sign+verify),10,0.003755,0.001327,0.006016,0.006016,0.0114,882.73
+Dilithium3 (keygen+sign+verify),20,0.003625,0.001032,0.006105,0.006105,0.016,1249.65
+Dilithium3 (keygen+sign+verify),50,0.00428,0.001641,0.007173,0.008655,0.0271,1852.63
+AES-256-GCM (encrypt+decrypt),1,4e-05,0.0,4e-05,4e-05,0.002,739.26
+AES-256-GCM (encrypt+decrypt),5,2e-05,9e-06,3.4e-05,3.4e-05,0.0022,2271.02
+AES-256-GCM (encrypt+decrypt),10,2e-05,1.1e-05,4.2e-05,4.2e-05,0.0036,2770.22
+AES-256-GCM (encrypt+decrypt),20,2.1e-05,1.2e-05,4.9e-05,4.9e-05,0.0057,3484.06
+AES-256-GCM (encrypt+decrypt),50,2.2e-05,1.1e-05,4.7e-05,5.5e-05,0.0133,3754.39
