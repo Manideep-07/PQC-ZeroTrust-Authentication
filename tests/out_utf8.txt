@@ -1,0 +1,23 @@
+﻿Waiting for server to start...
+Server is up!
+
+--- Running Functional Tests ---
+[test_client_0] Kyber Verification FAILED: Server handshake returned error 
+Starting Concurrency Test...
+[concurrent_client_1] Kyber Verification FAILED: Server handshake returned error 
+[concurrent_client_2] Kyber Verification FAILED: Server handshake returned error 
+[concurrent_client_3] Kyber Verification FAILED: Server handshake returned error 
+[concurrent_client_4] Kyber Verification FAILED: Server handshake returned error 
+[concurrent_client_5] Kyber Verification FAILED: Server handshake returned error 
+Concurrency Verification FAILED: One or more concurrent clients failed.
+Latency Logging Verification FAILED: File not found.
+
+=====================================
+FINAL RESULT
+=====================================
+Kyber Test: FAIL
+Dilithium Test: FAIL
+AES Test: FAIL
+Redis Test: FAIL
+Concurrency Test: FAIL
+Latency Logging Test: FAIL
